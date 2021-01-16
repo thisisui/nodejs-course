@@ -4,7 +4,8 @@
   "description": "- JavaScript Runtime - Written in C++ - Build on the V8 JS engine - Allows run JS code on server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "keywords": [],
   "author": "",
