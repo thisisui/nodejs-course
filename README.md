@@ -32,3 +32,15 @@
 - Node Core Modules (path, fs, http, etc)
 - 3rd party modules
 - custom modules
+
+# Module Wrapper Function
+
+`(function (exports, require, module, __filename, __dirname){`
+
+`})`
+
+- the code above wraps around our modules
+
+# Import in Nodejs
+
+- by adding `type: module` in package.json we can use import syntax
