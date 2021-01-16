@@ -1,5 +1,7 @@
-import Person from "./person.js";
+const Logger = require("./logger");
 
-const person1 = new Person("John");
+const logger = new Logger();
 
-console.log(person1.greetings());
+logger.on("message", (data) => console.log("Called Listener", data));
+
+logger.log("Hello World");
